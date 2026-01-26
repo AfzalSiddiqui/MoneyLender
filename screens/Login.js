@@ -3,7 +3,7 @@ import { useNavigation } from '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { AspectRatio, Box, Button, Icon, Image, Image, Input, NativeBaseProvider } from 'native-base';
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from  'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from   'react-native';
 
 
 function Login() {
@@ -15,7 +15,7 @@ function Login() {
       </View>
       <View style={styles.text2}>
         <Text>Don't have an account? </Text>
-        <TouchableOpacity onPress={() => navigation.navigate("Signup")} ><Text style={styles.signupText}> Sign up</Text></TouchableOpacity>
+        <TouchableOpacity onPress={() =>  navigation.navigate("Signup")} ><Text style={styles.signupText}> Sign up</Text></TouchableOpacity>
       </View>
 
       {/* Username or Email Input Field */}
