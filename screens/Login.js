@@ -1,10 +1,9 @@
-import { FontAwesome5 } from '@expo/vector-icons';
-import { useNavigation } from '@react-navigation/native';
+import { FontAwesome5 } from  '@expo/vector-icons';
+import { useNavigation } from  '@react-navigation/native';
 import { StatusBar } from 'expo-status-bar';
 import { AspectRatio, Box, Button, Icon, Image, Image, Input, NativeBaseProvider } from 'native-base';
 import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from   'react-native';
-
+import { StyleSheet, Text, TouchableOpacity, View } from  'react-native';
 
 function Login() {
     const navigation = useNavigation();
